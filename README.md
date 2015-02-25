@@ -1,3 +1,5 @@
+This is a fork of com.amazonaws:aws-android-sdk that uses Nextop as the transport.
+
 # AWS SDK for Android
 
 The [AWS SDK for Android](http://aws.amazon.com/sdkforandroid) provides a library, code samples, and documentation for developers to build connected mobile applications using AWS.
