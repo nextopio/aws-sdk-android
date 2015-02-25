@@ -22,7 +22,10 @@ import org.apache.http.protocol.HttpRequestExecutor;
 import com.amazonaws.http.conn.ClientConnectionManagerFactory;
 import com.amazonaws.http.protocol.SdkHttpRequestExecutor;
 
-public class SdkHttpClient extends DefaultHttpClient {
+import io.nextop.httpclient.NextopHttpClient;
+
+/* <nextop edit> use NextopHttpClient as a base */
+public class SdkHttpClient extends NextopHttpClient {
     public SdkHttpClient(
             final ClientConnectionManager conman,
             final HttpParams params) {
