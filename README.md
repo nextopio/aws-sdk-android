@@ -1,4 +1,4 @@
-This is a fork of com.amazonaws:aws-android-sdk that uses Nextop as the transport.
+This is a fork of com.amazonaws:aws-android-sdk that uses [Nextop](https://github.com/nextopio/nextop-client) as the transport.
 
 # AWS SDK for Android
 
